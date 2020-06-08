@@ -9,6 +9,7 @@ https://rclone.org/
 then i have a cronjob to run once and hour:
 
 $ crontab -l
+
 0 * * * * ~/useful_scripts/rclone_backup.sh
 
 logs are written to the top level of your home directory (need to fix this properly)
